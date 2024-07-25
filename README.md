@@ -54,7 +54,7 @@ Description: This pie chart illustrates the distribution of average gross income
 
 Top 15 Countries Budget Analysis:
 Description: This bar chart shows the budget distribution for the top 15 countries. It helps to compare how different countries allocate their movie budgets.
-![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20184214.png)
+![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20192216.png)
 
 Annual Gross Income Analysis:
 Description: This line graph illustrates the trend of annual gross income over time, providing insights into how movie revenue has changed year by year.
@@ -81,6 +81,6 @@ Top 10 Movies with Highest Avg Profit:
 Description: Highlights the top 10 movies based on their average profit, helping to identify the most profitable films.
 ![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20184518.png)
 
-Top 10 Countries with Highest Avg Profit:
+Top 15 Countries with Highest Avg Profit:
 Description: Ranks the top 10 countries by their average profit, providing insights into which countries generate the highest average revenue from movies.
-![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Top%2010%20Countries%20Budget%20Analysis)
+![image alt]([https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Top%2010%20Countries%20Budget%20Analysis](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20192029.png))
