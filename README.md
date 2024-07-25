@@ -1,7 +1,8 @@
 # IMDb-Movie-Analysis-with-Excel
 In this project, I aim to derive insights from movie data, aiding cinema industry professionals in identifying the best countries, languages, actors, directors, and actor-director duos. Additionally, I will analyze if IMDb scores correlate with gross income, offering a comprehensive view of factors driving movie success.
 
-#### Dataset description
+<span style="font-size:0.5em;">Dataset description</span>
+
 This dataset contains 3523 rows , 14 original rows and I add 8 new rows to help in the insigt extraction
 #Original Columns :
 1-director_name: The name of the director of the movie.
