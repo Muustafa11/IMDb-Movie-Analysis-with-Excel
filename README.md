@@ -49,7 +49,7 @@ Score Group: Created groups based on the imdb_score using conditional statements
 
 ### Visualizations:
 Rating vs Average of Gross:
-Description: This scatter plot visualizes the relationship between IMDb ratings and the average gross income of movies. It helps to identify if higher ratings correlate with higher gross revenue.
+Description: This pie chart illustrates the distribution of average gross income across different IMDb ratings. It helps to understand how the gross income varies with the rating categories.
 ![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20184424.png)
 
 Top 15 Countries Budget Analysis:
