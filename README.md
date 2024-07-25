@@ -83,4 +83,4 @@ Description: Highlights the top 10 movies based on their average profit, helping
 
 Top 10 Countries with Highest Avg Profit:
 Description: Ranks the top 10 countries by their average profit, providing insights into which countries generate the highest average revenue from movies.
-![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20184531.png)
+![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Top%2010%20Countries%20Budget%20Analysis)
