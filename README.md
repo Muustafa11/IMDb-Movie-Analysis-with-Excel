@@ -64,25 +64,30 @@ Description: This line graph illustrates the trend of annual gross income over t
 
 Top 10 Actors with Highest ROI:
 Description: Shows the top 10 actors ranked by their return on investment (ROI), highlighting those who generate the highest returns relative to their investments.
+
 ![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Top%2010%20Actors%20with%20Highest%20ROI.png)
 
 Top 10 Directors with Highest ROI:
 Description: Lists the top 10 directors based on their ROI, identifying directors who achieve the highest financial returns.
+
 ![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Top%2010%20Directors%20with%20Highest%20ROI.png)
 
 
 Top 10 Actor & Director Duo with Highest ROI:
 Description: Displays the top 10 actor-director duos ranked by their ROI, showcasing the most profitable collaborations.
+
 ![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Top%2010%20Actor%20%26%20Director%20Duo%20with%20Highest%20ROI.png)
 
 
 Top 10 Movies with Highest Profit:
 Description: This pivot table showcases the top 10 movies ranked by their total profit. It highlights the most financially successful films, offering valuable insights for those looking to replicate these achievements in the film industry.
+
 ![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Top%2010%20Movies%20with%20Highest%20Profit%20.png)
 
 
 Top 10 Countries Based on the ROI and Their Profit Average:
 Description: This pivot table ranks the top 10 countries by their return on investment (ROI) and provides the average profit for each country. It offers insights into which countries achieve the highest profitability relative to their investments.
+
 ![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Top%2010%20Countries%20with%20Highest%20ROI.png)
 
 # Conclusion
