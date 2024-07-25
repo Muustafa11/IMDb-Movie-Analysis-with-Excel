@@ -63,6 +63,8 @@ Pivot Tables
 
 Top 10 Actors with Highest Avg Profit:
 Description: Shows the top 10 actors ranked by their average profit from movies. This table highlights the most financially successful actors.
+![Alt text]([https://example.com/path/to/image.png](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/2f791b8e1448267b4032807ec9c5cd8953175f14/Screenshot%202024-07-25%20184441.png))
+
 
 Top 10 Directors with Highest Avg Profit Ratio:
 Description: Lists the top 10 directors based on their average profit ratio. It identifies directors with the highest profitability relative to their budgets.
