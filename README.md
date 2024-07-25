@@ -9,53 +9,70 @@ In this project, I aim to derive insights from movie data, aiding cinema industr
 ## Dataset description
 
 This dataset contains 3523 rows , 14 original rows and I add 8 new rows to help in the insigt extraction
-#Original Columns :
+
+## Original Columns :
+
 1-director_name: The name of the director of the movie.
+
 2-num_critic_for_reviews: The number of reviews the movie has received from critics.
+
 3-gross: The total gross revenue the movie generated.
+
 4-genres: The genres the movie belongs to (e.g., Drama, Comedy).
+
 5-actor_1_name: The name of the lead actor/actress in the movie.
+
 6-movie_title: The title of the movie.
+
 7-num_voted_users: The number of users who have voted/rated the movie.
+
 8-plot_keywords: Keywords describing the main plot points of the movie.
+
 9-num_user_for_reviews: The number of reviews the movie has received from users.
+
 10-language: The primary language in which the movie was released.
+
 11-country: The country where the movie was produced.
+
 12-budget: The production budget of the movie.
+
 13-title_year: The year the movie was released.
+
 14-imdb_score: The IMDb rating score for the movie.
-#Added Columns: will be described next
+
+### Added Columns: will be described next
 
 ## Data Preprocessing Steps 
 ### Overview:
 The following steps outline the data preprocessing procedures undertaken to prepare the IMDb dataset for analysis. This includes data cleaning, the addition of new columns, and the transformation of existing data to ensure consistency and comparability.
 
 #### Data Cleaning Steps:
-Remove Special Characters:
+1-Remove Special Characters:
 Removed special characters from the following columns: director_name, actor_1_name, and movie_title.
-Highlight and Fill Null Values in Plot Keywords:
+
+2-Highlight and Fill Null Values in Plot Keywords:
 Used conditional formatting to highlight null values in the plot_keywords column.
 Filled the blanks using ChatGPT to generate appropriate keywords based on movie context.
-Fill Blanks in Language Column:
-Filled blanks in the language column based on the country column. For example, if the movie is from the USA, the language was filled as English.
-Verified and corrected the filled entries using ChatGPT for accuracy.
+
+3-Fill Blanks in Language Column: Filled in the blanks in the language column by referencing the country column. 
+For example, movies associated with the USA were assigned "English" as the language. The filled entries were then verified and corrected for accuracy using ChatGPT.
 
 ### Added Columns and Their Transformations:
-Main Genre: Extracted from the genres column by taking the first genre listed.
+1-Main Genre: Extracted from the genres column by taking the first genre listed.
 
-Actor & Director Duo: Concatenated actor_1_name and director_name.
+2-Actor & Director Duo: Concatenated actor_1_name and director_name.
 
-Conversion: Applied a lookup function to reference a table of exchange rates based on the country.
+3-Conversion: Applied a lookup function to reference a table of exchange rates based on the country.
 
-Adjusted Gross: Calculated by multiplying the gross by the Conversion rate.
+4-Adjusted Gross: Calculated by multiplying the gross by the Conversion rate.
 
-Adjusted Budget: Calculated by multiplying the budget by the Conversion rate.
+5-Adjusted Budget: Calculated by multiplying the budget by the Conversion rate.
 
-Profit: Subtracted the Adjusted Budget from the Adjusted Gross.
+6-Profit: Subtracted the Adjusted Budget from the Adjusted Gross.
 
-ROI (Return on Investment): Calculated using the formula: (Profit / Adjusted Budget) * 100.
+7-ROI (Return on Investment): Calculated using the formula: (Profit / Adjusted Budget) * 100.
 
-Score Group: Created groups based on the imdb_score using conditional statements.
+8-Score Group: Created groups based on the imdb_score using conditional statements.
 
 ## Data Visualization and Analysis
 
