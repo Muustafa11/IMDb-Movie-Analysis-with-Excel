@@ -1,3 +1,8 @@
+![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/c8373447-3cfd-4181-aef6-31e26f9a3414-731323186.jpg)
+
+
+
+
 # IMDb-Movie-Analysis-with-Excel
 In this project, I aim to derive insights from movie data, aiding cinema industry professionals in identifying the best countries, languages, actors, directors, and actor-director duos. Additionally, I will analyze if IMDb scores correlate with gross income, offering a comprehensive view of factors driving movie success.
 
