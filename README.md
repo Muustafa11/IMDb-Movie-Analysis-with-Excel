@@ -1,7 +1,7 @@
 # IMDb-Movie-Analysis-with-Excel
 In this project, I aim to derive insights from movie data, aiding cinema industry professionals in identifying the best countries, languages, actors, directors, and actor-director duos. Additionally, I will analyze if IMDb scores correlate with gross income, offering a comprehensive view of factors driving movie success.
 
-<p style="font-size:25px;">Dataset description</p>
+#### Dataset description
 This dataset contains 3523 rows , 14 original rows and I add 8 new rows to help in the insigt extraction
 #Original Columns :
 1-director_name: The name of the director of the movie.
@@ -20,7 +20,7 @@ This dataset contains 3523 rows , 14 original rows and I add 8 new rows to help 
 14-imdb_score: The IMDb rating score for the movie.
 #Added Columns: will be described next
 
-Data Preprocessing Steps
+** Data Preprocessing Steps **
 Overview:
 The following steps outline the data preprocessing procedures undertaken to prepare the IMDb dataset for analysis. This includes data cleaning, the addition of new columns, and the transformation of existing data to ensure consistency and comparability.
 
