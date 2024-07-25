@@ -1,7 +1,7 @@
 # IMDb-Movie-Analysis-with-Excel
 In this project, I aim to derive insights from movie data, aiding cinema industry professionals in identifying the best countries, languages, actors, directors, and actor-director duos. Additionally, I will analyze if IMDb scores correlate with gross income, offering a comprehensive view of factors driving movie success.
 
-Dataset description
+## Dataset description
 
 This dataset contains 3523 rows , 14 original rows and I add 8 new rows to help in the insigt extraction
 #Original Columns :
@@ -21,11 +21,11 @@ This dataset contains 3523 rows , 14 original rows and I add 8 new rows to help 
 14-imdb_score: The IMDb rating score for the movie.
 #Added Columns: will be described next
 
-** Data Preprocessing Steps **
-Overview:
+## Data Preprocessing Steps 
+### Overview:
 The following steps outline the data preprocessing procedures undertaken to prepare the IMDb dataset for analysis. This includes data cleaning, the addition of new columns, and the transformation of existing data to ensure consistency and comparability.
 
-Data Cleaning Steps:
+#### Data Cleaning Steps:
 Remove Special Characters:
 Removed special characters from the following columns: director_name, actor_1_name, and movie_title.
 Highlight and Fill Null Values in Plot Keywords:
@@ -35,7 +35,7 @@ Fill Blanks in Language Column:
 Filled blanks in the language column based on the country column. For example, if the movie is from the USA, the language was filled as English.
 Verified and corrected the filled entries using ChatGPT for accuracy.
 
-Added Columns and Their Transformations:
+### Added Columns and Their Transformations:
 Main Genre: Extracted from the genres column by taking the first genre listed.
 Actor & Director Duo: Concatenated actor_1_name and director_name.
 Conversion: Applied a lookup function to reference a table of exchange rates based on the country.
@@ -45,21 +45,22 @@ Profit: Subtracted the Adjusted Budget from the Adjusted Gross.
 ROI (Return on Investment): Calculated using the formula: (Profit / Adjusted Budget) * 100.
 Score Group: Created groups based on the imdb_score using conditional statements.
 
-#Data Visualization and Analysis
+## Data Visualization and Analysis
 
-Visualizations:
+### Visualizations:
 Rating vs Average of Gross:
 Description: This scatter plot visualizes the relationship between IMDb ratings and the average gross income of movies. It helps to identify if higher ratings correlate with higher gross revenue.
-Add Image: Insert the image of this scatter plot here.
+![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20184424.png)
 
 Top 15 Countries Budget Analysis:
 Description: This bar chart shows the budget distribution for the top 15 countries. It helps to compare how different countries allocate their movie budgets.
-Add Image: Insert the image of this bar chart here.
+![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20184214.png)
 
 Annual Gross Income Analysis:
 Description: This line graph illustrates the trend of annual gross income over time, providing insights into how movie revenue has changed year by year.
-Add Image: Insert the image of this line graph here.
-Pivot Tables
+![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20184359.png)
+
+### Pivot tables
 
 Top 10 Actors with Highest Avg Profit:
 Description: Shows the top 10 actors ranked by their average profit from movies. This table highlights the most financially successful actors.
@@ -68,7 +69,7 @@ Description: Shows the top 10 actors ranked by their average profit from movies.
 
 Top 10 Directors with Highest Avg Profit Ratio:
 Description: Lists the top 10 directors based on their average profit ratio. It identifies directors with the highest profitability relative to their budgets.
-![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/2f791b8e1448267b4032807ec9c5cd8953175f14/Screenshot%202024-07-25%20184441.png)
+![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20184456.png)
 
 
 Top 10 Collaborations between Actor & Director with Highest Avg Profit Ratio:
