@@ -83,4 +83,4 @@ Description:This pivot table showcases the top 10 movies ranked by their total p
 
 Top 15 Countries with Highest Avg Profit:
 Description: Ranks the top 10 countries by their average profit, providing insights into which countries generate the highest average revenue from movies.
-![image alt]([https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Top%2010%20Countries%20Budget%20Analysis](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20192029.png))
+![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20192029.png)
