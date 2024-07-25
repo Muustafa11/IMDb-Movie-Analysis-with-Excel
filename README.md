@@ -1,7 +1,7 @@
 # IMDb-Movie-Analysis-with-Excel
 In this project, I aim to derive insights from movie data, aiding cinema industry professionals in identifying the best countries, languages, actors, directors, and actor-director duos. Additionally, I will analyze if IMDb scores correlate with gross income, offering a comprehensive view of factors driving movie success.
 
-<span style="font-size:0.5em;">Dataset description</span>
+Dataset description
 
 This dataset contains 3523 rows , 14 original rows and I add 8 new rows to help in the insigt extraction
 #Original Columns :
@@ -73,9 +73,13 @@ Description: Lists the top 10 directors based on their average profit ratio. It 
 
 Top 10 Collaborations between Actor & Director with Highest Avg Profit Ratio:
 Description: Displays the top 10 actor-director duos ranked by their average profit ratio, showcasing the most successful collaborations.
+![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20184508.png)
+
 
 Top 10 Movies with Highest Avg Profit:
 Description: Highlights the top 10 movies based on their average profit, helping to identify the most profitable films.
+![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20184518.png)
 
 Top 10 Countries with Highest Avg Profit:
 Description: Ranks the top 10 countries by their average profit, providing insights into which countries generate the highest average revenue from movies.
+![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20184531.png)
