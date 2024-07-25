@@ -81,11 +81,10 @@ Top 10 Movies with Highest Profit:
 Description:This pivot table showcases the top 10 movies ranked by their total profit. It highlights the most financially successful films, offering valuable insights for those looking to replicate these achievements in the film industry
 ![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20193801.png)
 
-Top 15 Countries with Highest Avg Profit:
-Description: Ranks the top 10 countries by their average profit, providing insights into which countries generate the highest average revenue from movies.
+Top 10 Countries Based on the ROI and Their Profit Average
+Description: This pivot table ranks the top 10 countries by their return on investment (ROI) and provides the average profit for each country. It offers insights into which countries achieve the highest profitability relative to their investments.
 
-
-![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20192029.png)
+![image alt](https://github.com/Muustafa11/IMDb-Movie-Analysis-with-Excel/blob/main/Screenshot%202024-07-25%20195418.png)
 
 
 # Conclusion
