@@ -42,12 +42,19 @@ Verified and corrected the filled entries using ChatGPT for accuracy.
 
 ### Added Columns and Their Transformations:
 Main Genre: Extracted from the genres column by taking the first genre listed.
+
 Actor & Director Duo: Concatenated actor_1_name and director_name.
+
 Conversion: Applied a lookup function to reference a table of exchange rates based on the country.
+
 Adjusted Gross: Calculated by multiplying the gross by the Conversion rate.
+
 Adjusted Budget: Calculated by multiplying the budget by the Conversion rate.
+
 Profit: Subtracted the Adjusted Budget from the Adjusted Gross.
+
 ROI (Return on Investment): Calculated using the formula: (Profit / Adjusted Budget) * 100.
+
 Score Group: Created groups based on the imdb_score using conditional statements.
 
 ## Data Visualization and Analysis
